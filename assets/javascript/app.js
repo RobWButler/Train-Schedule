@@ -1,6 +1,6 @@
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyBcPe7CFxyh1lzGfKQiZ8ilY79x14qXEcQ",
+    apiKey: "",
     authDomain: "gtsav2019.firebaseapp.com",
     databaseURL: "https://gtsav2019.firebaseio.com",
     projectId: "gtsav2019",
