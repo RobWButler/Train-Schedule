@@ -1,6 +1,6 @@
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyBcPe7CFxyh1lzGfKQiZ8ilY79x14qXEcQ",
+    apiKey: "",
     authDomain: "gtsav2019.firebaseapp.com",
     databaseURL: "https://gtsav2019.firebaseio.com",
     projectId: "gtsav2019",
@@ -8,5 +8,8 @@
     messagingSenderId: "1022037644586"
   };
   firebase.initializeApp(config);
+<<<<<<< HEAD
 
   var database = firebase.database()
+=======
+>>>>>>> a410b4124236fe01b7126500dde2f8c301fdcb07
