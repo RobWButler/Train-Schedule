@@ -8,7 +8,46 @@
 
 </head>
 <body>
-    
+    <div class="container">
+
+    <div class="jumbotron">
+        <h1>Train Schedule</h1>
+    </div>
+        <table class="table">
+
+            Add Train Times
+            <hr>
+
+            <div class="form-row">
+                Train Name
+
+                <input type="text" id="name-input" class="form-control" placeholder="Silver Bullet" aria-label="Name" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="form-row">
+
+                Destination
+                <input type="text" id="dest-input" class="form-control" placeholder="New York" aria-label="Destination" aria-describedby="basic-addon1">
+
+            </div>
+
+            <div class="form-row">
+
+                First Train Time (HH:mm)
+                <input class="form-control" id="firstTrain" type="time">
+
+            </div>
+
+            <div class="form-row">
+
+                Frequency (min)
+                <input type="text" id="freq-input" class="form-control" placeholder="5" aria-label="Frequency" aria-describedby="basic-addon1">
+
+            </div>
+            <hr>
+
+            <button class="btn btn-primary" id="addtrain">Add Train</button>
+    </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

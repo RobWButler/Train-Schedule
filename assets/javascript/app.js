@@ -8,3 +8,5 @@
     messagingSenderId: "1022037644586"
   };
   firebase.initializeApp(config);
+
+  var database = firebase.database()
